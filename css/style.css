@@ -1,0 +1,38 @@
+#container {
+  margin: 20px auto;;
+  padding: 0;
+}
+
+.card{
+  width: 450px;
+  height: 200px;
+  background: green;
+}
+
+.carousel-hider{
+  width: 1200px;
+  overflow: hidden;
+  float: left;
+}
+  .carousel-list{
+    list-style: none;
+    width: 4000px;
+    padding: 0;
+    position: relative;
+  }
+
+  .carousel-element{
+    display: block;
+    margin-right: 25px;
+    float: left;
+  }
+
+  .carousel-element img{
+    max-width: 400px;
+    height: 300px;
+  }
+
+  .left,
+  .right{
+    float: left;
+  }
